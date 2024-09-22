@@ -57,9 +57,75 @@
 </head>
 <body>
     <div class="container">
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .placeholder-text {
+            font-size: 24px;
+            margin-bottom: 20px; /* Space between text and button */
+            position: relative;
+            top: -30px; /* Adjust this value to move the text up or down */
+        }
+
+        .button, .button2, .button3 {
+          background-color: green;
+          color: white;
+          padding: 15px 30px;
+          border-radius: 25px;
+          border: none;
+          text-decoration: none;
+          font-size: 18px;
+          cursor: pointer;
+          display: inline-block;
+          width: 200px; /* Fixed width to ensure both buttons are the same size */
+          text-align: center;
+        }
+
+        .button2,.button3 {
+          margin-top: 20px;
+        }
+        .button:hover, .button2:hover, .button3:hover {
+          background-color: darkgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
         <div class="placeholder-text">Server Coin</div>
         <div class="placeholder-text">About Server Coin</div>
-        The point of Server Coin is to make the price of cloud services cheaper by making it easier to make one.
+        <div class="placeholder-text">The point of Server Coin is to make the price of cloud services cheaper by making it easier to make one.</div>
+        <a href="https://github.com/thetruecutepuppydog/Servercoin/blob/main/whitepaper.pdf" class="button">White Paper</a>
+        <a href="https://github.com/thetruecutepuppydog/Servercoin" class="button2">GitHub</a>
+        <a href="https://github.com/thetruecutepuppydog/ServercoinGUARDapp" class="button3">Servercoin Guard App</a>
+    </div>
+</body>
+</html>
+
         <a href="https://github.com/thetruecutepuppydog/Servercoin/blob/main/whitepaper.pdf" class="button">White Paper</a>
         <a href="https://github.com/thetruecutepuppydog/Servercoin" class="button2">GitHub</a>
         <a href="https://github.com/thetruecutepuppydog/ServercoinGUARDapp" class="button3">Servercoin Guard App          </a>
